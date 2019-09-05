@@ -25,5 +25,5 @@ git push adriss master
 adriss open
 ```
 The above will deploy:
-1. the app [/www](blob/initial/Stack.yaml) and
-2. the GraphQL APIs `/api`.
+1. the app [/www](www) and
+2. the GraphQL APIs [/api](api).
