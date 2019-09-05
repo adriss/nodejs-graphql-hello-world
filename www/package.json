@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-graphql-hello-world",
+  "version": "0.0.1",
+  "description": "A Hello World NodeJS GraphQL sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adriss/nodejs-graphql-hello-world.git"
+  },
+  "keywords": [
+    "node",
+    "graphql",
+    "serverless",
+    "adriss"
+  ],
+  "author": "JC Carrillo",
+  "contributors": [
+    "JC Carrillo <jccarrillo@adriss.com> (http://wwww.adriss.com)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adriss/nodejs-graphql-hello-world/issues"
+  },
+  "homepage": "https://github.com/adriss/nodejs-graphql-hello-world#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

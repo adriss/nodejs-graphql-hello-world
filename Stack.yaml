@@ -1,0 +1,23 @@
+stack:
+  description: 'nodejs-graphql-hello-world'
+  parameters:
+    wwwRoot: '/www'
+    apiRoot: '/api'
+  resources:
+    api:
+      type: api
+      properties:
+        schema: '${apiRoot}/schema.graphql'
+        resolvers:
+          - type: Query
+            field: hello
+            request: '${apiRoot}/resolvers/Query.hello.request'
+            response: '${apiRoot}/resolvers/Query.hello.response'
+    www:
+      type: folder
+      properties:
+        source: '${wwwRoot}'
+        events:
+          http:
+            - method: get
+              path: '/*'
